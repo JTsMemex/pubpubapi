@@ -1,4 +1,4 @@
-# PubPub SDK
+# Fork of PubPub API SDK
 
 [![npm version](https://img.shields.io/npm/v/@pubpub/sdk.svg)](https://www.npmjs.com/package/@pubpub/sdk)
 [![npm downloads](https://img.shields.io/npm/dm/@pubpub/sdk.svg)](https://www.npmjs.com/package/@pubpub/sdk)
@@ -44,11 +44,11 @@ Replace `https://demo.pubpub.org` with your community URL, and replace `…` wit
 
 The following actions are not permitted by the SDK, nor through the API in general:
 
-### Creating or deleting communities
+- Creating or deleting communities
 
 Deleting a community is not permitted, due to the risk of accidental deletion of a community. Creating a community is not permitted, due to the potential for abuse (e.g., spam communities).
 
-### Creating, deleting, or modifying users
+- Creating, deleting, or modifying users
 
 It is not possible to create, delete or modifying users, due to the risks involved.
 
@@ -8403,7 +8403,7 @@ Promise<
 
 ## Contributing
 
-If you find a bug or have a feature request, please open an issue.
+If you find a bug or have a feature request, please open an issue in the main project.
 
 ### Development
 
