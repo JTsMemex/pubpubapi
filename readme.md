@@ -42,15 +42,7 @@ Replace `https://demo.pubpub.org` with your community URL, and replace `…` wit
 
 ## Limitations
 
-The following actions are not permitted by the SDK, nor through the API in general:
-
-- Creating or deleting communities
-
-Deleting a community is not permitted, due to the risk of accidental deletion of a community. Creating a community is not permitted, due to the potential for abuse (e.g., spam communities).
-
-- Creating, deleting, or modifying users
-
-It is not possible to create, delete or modifying users, due to the risks involved.
+The following actions are not permitted by the SDK, nor through the API in general (1) Creating or deleting communities: Deleting a community is not permitted, due to the risk of accidental deletion of a community. Creating a community is not permitted, due to the potential for abuse (e.g., spam communities). (2) Creating, deleting, or modifying users: It is not possible to create, delete or modifying users, due to the risks involved.
 
 ## Guides
 
